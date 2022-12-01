@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+
+        <menuitem id="realtor_root_menu" name="Realtor" />
+
+        <menuitem
+            id="property_listing_menu"
+            name="Properties"
+            parent="realtor_root_menu"
+            action="property_action"
+        />
+        <menuitem
+            id="property_managers_menu"
+            name="Managers"
+            parent="realtor_root_menu"
+            action="property_manager_action"
+        />
+
+    </data>
+</odoo>
