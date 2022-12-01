@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <data>
+        <record id="interested_property_template" model="mail.template">
+            <field name="name">Realtor: I'm Intersted In Property</field>
+            <field name="model_id" ref="model_realtor_property" />
+            <field name="body_html" type="html">
+                <div>
+                    <p>Hello <strong>--property-manager-name--</strong>,</p>
+
+                    <p>An individual has shown interest in your property <strong>--property-name--</strong>.</p>
+                    <p>Contact them using the information below.</p>
+                    <ul>
+                        <li><strong>Name:</strong> <strong>--customer-name--</strong></li>
+                        <li><strong>Email:</strong> <strong>--customer-email--</strong></li>
+                        <li><strong>Mobile:</strong> <strong>--customer-mobile--</strong></li>
+                    </ul>
+                </div>
+            </field>
+        </record>
+    </data>
+</odoo>

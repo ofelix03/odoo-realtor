@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_realtor_property,realtor.property,model_realtor_property,,1,1,1,1
+access_realtor_property_manager,realtor.property.manager,model_realtor_property_manager,,1,1,1,1
+access_realtor_property_amenity,realtor.property.amenity,model_realtor_property_amenity,,1,1,1,1
